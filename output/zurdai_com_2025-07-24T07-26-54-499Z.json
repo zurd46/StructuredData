@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "url": "https://zurdai.com/",
+    "analyzedAt": "2025-07-24T07:26:54.499Z",
+    "generated": false,
+    "structuredDataCount": 4
+  },
+  "structuredData": [
+    {
+      "type": "Organization",
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ZurdAI",
+        "alternateName": "ZurdAI - KI Agentur Schweiz",
+        "url": "https://zurdai.com",
+        "logo": "https://zurdai.com/logo.svg",
+        "sameAs": [
+          "https://github.com/zurd46",
+          "https://www.linkedin.com/in/zurd46/"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+41 79 127 55 54",
+          "contactType": "customer service",
+          "email": "kontakt@zurdai.com",
+          "availableLanguage": [
+            "German"
+          ]
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Hinterdorfstrasse 12",
+          "postalCode": "6235",
+          "addressLocality": "Winikon",
+          "addressRegion": "Luzern",
+          "addressCountry": "CH"
+        },
+        "description": "LangChain-zertifizierter KI-Experte für intelligente Automatisierung, Geschäftsprozess-Optimierung und moderne Web-Lösungen in der Schweiz.",
+        "foundingDate": "2024",
+        "industry": "Artificial Intelligence",
+        "knowsAbout": [
+          "Intelligente KI-Assistenten",
+          "Geschäftsprozess-Automatisierung",
+          "LangChain",
+          "RAG-Systeme",
+          "TypeScript",
+          "Node.js",
+          "Python",
+          "Prozessoptimierung",
+          "DSGVO-konforme KI"
+        ],
+        "serviceArea": {
+          "@type": "Country",
+          "name": "Schweiz"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "Schweiz"
+          },
+          {
+            "@type": "State",
+            "name": "Luzern"
+          },
+          {
+            "@type": "City",
+            "name": "Winikon"
+          }
+        ]
+      },
+      "format": "json-ld",
+      "source": "script"
+    },
+    {
+      "type": "Service",
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Intelligente KI-Automatisierung & Geschäftsprozess-Optimierung",
+        "provider": {
+          "@type": "Organization",
+          "name": "ZurdAI",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Hinterdorfstrasse 12",
+            "postalCode": "6235",
+            "addressLocality": "Winikon",
+            "addressRegion": "Luzern",
+            "addressCountry": "CH"
+          },
+          "telephone": "+41 79 127 55 54"
+        },
+        "description": "LangChain-zertifizierte Entwicklung intelligenter KI-Assistenten, Geschäftsprozess-Automatisierung und moderne Web-Lösungen mit TypeScript, Node.js und Python in der Schweiz.",
+        "serviceType": "Artificial Intelligence Consulting",
+        "areaServed": [
+          "Schweiz",
+          "Luzern",
+          "Winikon",
+          "Zentralschweiz"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "KI-Services Schweiz",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Intelligente KI-Assistenten",
+                "description": "LangChain-zertifizierte Entwicklung von KI-Systemen mit RAG, Dokumentensuche und natürlicher Sprachverarbeitung"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Geschäftsprozess-Automatisierung",
+                "description": "Automatisierung wiederkehrender Aufgaben, Datenextraktierung und Prozessoptimierung mit bis zu 80% Zeitersparnis"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Moderne Web-Lösungen",
+                "description": "TypeScript/Node.js Webapplikationen, individuelle Business-Tools und DSGVO-konforme Cloud-Integration"
+              }
+            }
+          ]
+        }
+      },
+      "format": "json-ld",
+      "source": "script"
+    },
+    {
+      "type": "FAQPage",
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Was sind intelligente KI-Assistenten und wie funktionieren sie?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Intelligente KI-Assistenten sind fortschrittliche Software-Systeme, die komplexe Aufgaben eigenständig bearbeiten können. Sie nutzen modernste Technologien wie LangChain, RAG-Systeme und Vektordatenbanken, um Ihre Dokumente zu verstehen, Prozesse zu automatisieren und rund um die Uhr zu arbeiten."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Welche Vorteile bringen intelligente Automatisierungen für mein Unternehmen?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Intelligente Automatisierungen sparen bis zu 80% der Zeit bei wiederkehrenden Aufgaben, arbeiten fehlerfrei, verstehen natürliche Sprache und können komplexe Entscheidungen treffen. Sie arbeiten 24/7 ohne Pausen, lernen kontinuierlich dazu und verbessern die Effizienz Ihrer Geschäftsprozesse erheblich."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wie sicher sind intelligente KI-Systeme?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Unsere KI-Systeme nutzen Enterprise-Grade Sicherheit mit Verschlüsselung, Zugriffskontrollen und kontinuierlicher Überwachung. Alle Daten werden DSGVO-konform und nach Schweizer Datenschutzgesetzen verarbeitet."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Bietet ZurdAI Services in der ganzen Schweiz an?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, von unserem Standort in Winikon, Luzern aus betreuen wir Kunden in der ganzen Schweiz. Wir bieten sowohl Remote- als auch Vor-Ort-Services an."
+            }
+          }
+        ]
+      },
+      "format": "json-ld",
+      "source": "script"
+    },
+    {
+      "type": "OpenGraph",
+      "data": {
+        "og:type": "website",
+        "og:url": "https://zurdai.com/",
+        "og:title": "ZurdAI - Intelligente KI-Automatisierung | LangChain Experte Schweiz 2025",
+        "og:description": "⭐ Verwandeln Sie wiederkehrende Aufgaben in automatische Prozesse! LangChain-zertifizierter KI-Experte aus Winikon, Luzern für intelligente KI-Assistenten und Geschäftsprozess-Automatisierung.",
+        "og:site_name": "ZurdAI",
+        "og:locale": "de_CH"
+      },
+      "format": "rdfa",
+      "source": "meta"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "structured-data-scraper",
+  "version": "1.0.0",
+  "description": "CLI tool to extract or generate structured data from websites using Puppeteer and LangChain",
+  "main": "dist/index.js",
+  "bin": {
+    "structured-data-scraper": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "watch": "nodemon --exec \"ts-node src/index.ts\"",
+    "analyze": "ts-node src/index.ts analyze",
+    "validate": "ts-node src/index.ts validate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "structured-data",
+    "schema.org",
+    "web-scraping",
+    "puppeteer",
+    "langchain",
+    "json-ld"
+  ],
+  "author": "ZurdAI",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/figlet": "^1.7.0",
+    "@types/node": "^24.1.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.66",
+    "@langchain/openai": "^0.6.2",
+    "axios": "^1.11.0",
+    "chalk": "^5.4.1",
+    "cheerio": "^1.1.2",
+    "commander": "^14.0.0",
+    "dotenv": "^17.2.0",
+    "figlet": "^1.8.2",
+    "langchain": "^0.3.30",
+    "puppeteer": "^24.15.0",
+    "winston": "^3.17.0"
+  }
+}
