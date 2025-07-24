@@ -1,7 +1,7 @@
 {
   "name": "structured-data-scraper",
   "version": "1.0.0",
-  "description": "CLI tool to extract or generate structured data from websites using Puppeteer and LangChain",
+  "description": "Professional Node.js CLI tool for extracting or generating structured data from websites using Puppeteer and LangChain",
   "main": "dist/index.js",
   "bin": {
     "structured-data-scraper": "dist/index.js"

@@ -1,4 +1,4 @@
-# 🚀 Schnellstart Guide
+# 🚀 Quickstart Guide
 
 ## 1. Installation
 ```bash
@@ -6,50 +6,50 @@ npm install
 npm run build
 ```
 
-## 2. OpenAI API Key konfigurieren (optional)
+## 2. Configure OpenAI API Key (optional)
 ```bash
-# .env Datei erstellen
+# Create .env file
 cp .env.example .env
 
-# API Key eintragen
+# Add API key
 echo "OPENAI_API_KEY=sk-your-key-here" > .env
 ```
 
-## 3. Erste Analyse
+## 3. First Analysis
 ```bash
-# Website mit strukturierten Daten testen
+# Test website with structured data
 npm run analyze https://schema.org
 
-# Website ohne strukturierte Daten testen
+# Test website without structured data
 npm run analyze https://example.com
 
-# Ergebnisse anschauen
+# Check results
 ls output/
 ```
 
-## 4. Validierung
+## 4. Validation
 ```bash
-# Letzte generierte Datei validieren
+# Validate last generated file
 npm run validate "./output/*.json"
 ```
 
-## 5. Alle Features testen
+## 5. Test All Features
 ```bash
-# Hilfe anzeigen (mit ASCII-Logo)
+# Show help (with ASCII logo)
 npm run dev --help
 
-# Forcierte Neugenerierung
+# Force regeneration
 npm run analyze https://example.com -- --force
 
-# Custom Output-Verzeichnis
-npm run analyze https://example.com -- --output ./meine-results
+# Custom output directory
+npm run analyze https://example.com -- --output ./my-results
 ```
 
-Das war's! 🎉
+That's it! 🎉
 
-## Wichtige Befehle im Überblick:
-- `npm run analyze <url>` - Website analysieren
-- `npm run validate <file>` - JSON validieren  
-- `npm run dev --help` - Hilfe mit Logo anzeigen
-- `npm run build` - Projekt kompilieren
-- `npm run watch` - Development mit Auto-Reload
+## Important Commands Overview:
+- `npm run analyze <url>` - Analyze website
+- `npm run validate <file>` - Validate JSON  
+- `npm run dev --help` - Show help with logo
+- `npm run build` - Compile project
+- `npm run watch` - Development with auto-reload
